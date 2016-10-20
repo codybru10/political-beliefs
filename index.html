@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <script src="js/jquery-3.1.1.js" type="text/javascript"></script>
+    <script src="js/scripts.js" type="text/javascript"></script>
+  </head>
+  <body>
+    <div class="container">
+
+      <h1>What are you on the political spectrum?</h1>
+      <form id="quiz">
+        <div class="form-group">
+          <label for="wage">Should the government raise the minimum wage?</label>
+          <select id="wage" class="form-control">
+            <option value="0"></option>
+            <option value="2">Yes, $10 an hour</option>
+            <option value="3">Yes, $15 an hour</option>
+            <option value="0">No, that would put a burden on small business</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="apple">Should Apple unlock the iPhones of suspected terrorists for the FBI?</label>
+          <select id="apple" class="form-control">
+            <option value="0"></option>
+            <option value="0">Yes, we need to have security</option>
+            <option value="1">No, we shouldn't jeopardize our right to privacy</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="mj">Do you support the legalization of Marijuana?</label>
+          <select id="mj" class="form-control">
+            <option value="0"></option>
+            <option value="2">Yes, and tax it</option>
+            <option value="3">Yes, and leave it alone</option>
+            <option value="1">Not fully, only medicinal purposes</option>
+            <option value="0">No</option>
+          </select>
+        </div>
+        <button type="submit">What am I?</button>
+
+        <div>
+          <h2 id="output"></h2>
+        </div>
+      </form>
+
+      <!-- 0-3 con, 4-5 mod, 6-7 lib -->
+
+    </div>
+  </body>
+</html>
